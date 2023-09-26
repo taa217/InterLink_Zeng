@@ -1,0 +1,5 @@
+intent('What does this app do?',Who created you?,Who are you?',
+(p)=>{
+    p.play('I am a social (app|platform) created by a team at InterLink Global Technologies, founded by.Iam am mainly focused on providing career guidance to individuals based on a certain career they want pursue in life.')
+}
+)

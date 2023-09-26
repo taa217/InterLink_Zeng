@@ -1,0 +1,19 @@
+.container{
+    padding: 0.5rem;
+    margin-top: 0;
+    background-color: rgb(234, 240, 248);
+    color: black;
+}
+
+.inner{
+    display: flex;
+    gap: 0.5rem;
+}
+.img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+}

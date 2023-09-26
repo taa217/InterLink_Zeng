@@ -1,0 +1,19 @@
+.container{
+    padding: 0.1rem;
+    color: black;
+}
+.card{
+    display: flex;
+    border-bottom: solid rgb(241, 236, 236);
+    gap: 1rem;
+    padding: 0.2em;
+    background-color: white;
+}
+.pic{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: solid black;
+    overflow: hidden;
+}

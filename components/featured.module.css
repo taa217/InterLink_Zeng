@@ -1,0 +1,15 @@
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 0.5rem;
+    scroll-behavior: smooth;
+    /*hide scroll bar for ms edge,internet explorer*/
+    -ms-overflow-style: none; 
+}
+.container::-webkit-scrollbar{
+    /*hide scroll bar for chrome,opera,safari*/
+    display: none;
+}

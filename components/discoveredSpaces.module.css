@@ -1,0 +1,10 @@
+.container{
+    background-color: rgb(233, 229, 229);
+    color: black;
+}
+.head{
+    margin-left: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}

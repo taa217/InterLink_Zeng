@@ -1,0 +1,62 @@
+
+.container{
+    color: black;
+    margin-top: 2px;
+    width: 100%;
+    margin-top: 1rem;   
+}
+.profile{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(18, 132, 207);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+.left{
+    display: flex;
+    gap: 0.3rem;
+}
+.name{
+    font-size: medium;
+}
+.menu{
+    font-weight: bolder;
+    font-size: larger;
+}
+.about{
+    padding: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.image{
+    position: relative;
+    min-height: 320px;
+    max-height: 320px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    
+}
+.postpic{
+    background-color: black;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+.reacnum{
+    display: flex;
+}
+.num{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+.container{
+    width: 11.5rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    border: solid 2px gray;
+}
+.coverimg{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+}
+.profileimg{
+    margin-top: -3rem;
+    position: relative;
+    border-radius: 50%;
+    border: solid;
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.name{
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.desc{
+    margin-top: 0.3rem;
+    font-size: small;
+    text-align: center;
+}
+.connect{
+    width: 7rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    align-items: center;
+    border-radius: 1rem;
+    color: blue;
+    font-weight: bold;
+    border: solid 1.3px rgb(8, 50, 236);
+}

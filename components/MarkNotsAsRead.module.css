@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(99, 166, 248);
+    border: solid;
+}
+.mark{
+    font-size: medium;
+    font-weight: bold;
+}

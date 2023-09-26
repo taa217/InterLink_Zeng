@@ -1,0 +1,32 @@
+.container{
+    background-color: white;
+    color: black;
+    
+}
+.inner{
+    margin: 0.5rem;
+    border-bottom: solid rgb(190, 184, 184);
+    padding: 0.5rem;
+}
+.name{
+    display: flex;
+    gap: 0.3rem;
+}
+.img{
+    position: relative;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    overflow: hidden;
+}
+.question{
+    margin: 0.5rem;
+}
+.reaction{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.reac{
+    font-size: small;
+}

@@ -1,0 +1,220 @@
+.container{
+    background-color: rgb(226, 216, 216);
+    color: black;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+   /* align-items: ;*/
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg,rgb(33, 44, 51),rgb(48, 185, 248));
+    color: white;
+}
+.back{
+    margin-bottom: -5rem;
+    position: relative;
+}
+.cover{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.profile{
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-left: 0.5rem;
+    border: 5px solid white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    overflow: hidden;
+    margin-bottom: solid black;
+}
+.btns{
+    border: solid black;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.it{
+    display: flex;
+    justify-content: space-between;
+}
+.msgnconnect{
+    display: flex;
+    align-items: center;
+     margin-top: 1rem;
+     margin-right: 0.5rem; 
+}
+.innerdiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.name{
+    margin-top: 0.5rem;
+    font-size: 20px;
+    margin-left: 0.5rem;  
+}
+.experience{
+margin-top: 0.5rem;
+margin-left: 0.5rem;
+font-size: small;
+}
+.organisation{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: smaller;
+}
+.connections{
+margin-top: 1rem;
+font-size: small;
+margin-left: 0.5rem;
+}
+.details{
+    margin-top: 0.5rem;
+    color: black;
+}
+.about{
+background-color: white;
+padding: 0.3rem;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0.4rem;
+}
+.personAbout{
+    margin-top: 0.5rem;
+    font-size: medium;
+}
+.personexperience{
+    margin-top: 0.5rem;
+    background-color: white;
+    padding: 0.3rem;
+}
+.add{
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+gap: 0.5rem;
+}
+.detsexperience{
+    margin-top: 0.5rem;
+}.experiencecard{
+    margin-top: 1rem;
+}
+.exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiencetime{
+font-size: smaller;
+}
+.education{
+    margin-top: 0.5rem;
+    background-color: white;
+    padding: 0.3rem;
+}
+.detseducation{
+    margin-top: 0.5rem;
+}
+.educationcard{
+    margin-top: 1rem;
+}
+.dets{
+    display: flex;
+    gap: 0.5rem;
+    font-size: smaller;
+
+}
+.skills{
+    margin-top: 0.5rem;
+    background-color: white;
+    padding: 0.3rem;
+}
+.skillslist{
+    margin-top: 1rem;
+}
+.skillscard{
+    display: flex;
+    align-items: center;
+    margin-top: 0.75rem;
+    padding: 0.3rem;
+    border: solid rgb(13, 51, 219);
+    border-radius: 1rem;
+    width: 100%;
+}
+.activity{
+    margin-top: 0.5rem;
+    background-color: white;
+}
+.activitytop{
+    border-bottom: solid rgb(185, 181, 181);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+}
+.post{
+    margin-top: 0.5rem;
+}
+.editabt{
+    height: auto;
+    padding: 0.2rem;
+    width: 100%;
+    border: solid;
+    max-height: none;
+   /*  height: auto;
+    overflow-y: hidden;
+    border: solid 1px;
+    padding: 0.3rem;*/
+}
+
+.btn{
+    width: 4.5rem;
+    background-color: rgb(0, 195, 255);
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin-left: 80%;
+}
+.btnarea{
+    background-color: white;
+}
+.input{
+    width: 100%;
+    border: solid 1px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.addExperience{
+    margin-top: 0.5rem;
+    background-color: white;
+    padding: 0.5rem;
+}
+.addbtn{
+    width: 4.5rem;
+    background-color: rgb(0, 195, 255);
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.skillcard{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}

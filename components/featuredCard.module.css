@@ -1,0 +1,15 @@
+
+.container{
+    position: relative;
+    color: white;
+    font-size: large;
+    height: 9rem;
+    min-width:6.5rem;
+    border-radius: 0.6rem;
+    padding-left: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(11, 161, 207);
+    border: solid black;
+}

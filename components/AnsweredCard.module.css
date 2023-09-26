@@ -1,0 +1,37 @@
+.container{
+    padding: 0.3rem;
+  border-top: solid 1px gray;
+  margin-top: 5px;
+  color: black;
+}
+.top{
+    display: flex;
+    gap: 0.3rem;
+}
+.img{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(18, 132, 207);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.questionby{
+    font-size: x-small;
+}
+.ans{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 13px;
+}
+.innereact{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+.reacnum{
+    display: flex;
+}

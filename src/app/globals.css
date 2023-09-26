@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: black;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 234,234,123;
+  --background-end-rgb: 112,145,234;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: black;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 99, 99, 123;
+    --background-end-rgb: 40, 126, 90;
+  }
+}
+
+body {
+  color: black;
+  color:rgb(var(--foreground-rgb));
+  background: white;}/* linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}*/

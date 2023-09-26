@@ -1,0 +1,16 @@
+.container{
+    border-bottom: solid rgb(224, 224, 224);
+}
+
+.inner{
+    display: flex;
+    gap: 0.3rem;
+    margin: 0.2rem;
+}
+.lastmsg{
+    color: rgb(122, 124, 126);
+    
+}
+.name{
+    color: black;
+}
