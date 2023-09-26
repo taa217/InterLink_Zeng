@@ -1,0 +1,39 @@
+.container{
+    align-items: center;
+    border-bottom: solid 2px gray;
+    color: black;
+    height: 6rem;
+    padding-top: 1rem;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.pic{
+    border-radius: 50%;
+}
+.namenpic{
+    display: flex;
+    gap: 0.7rem;
+}
+.conectndecline{
+    display: flex;
+    gap: 0.7rem;
+    margin-right: 0.4rem;
+    
+}
+.desc{
+    font-size: small;
+}
+.btn{
+    padding: 0.3rem;
+    border: solid blue 1.5px;
+    border-radius: 1.5rem;
+}
