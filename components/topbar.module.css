@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(11, 161, 207);
+    
+}
+.appname{
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: larger ;
+    font-weight: 700;
+}
+.itemLeft{
+    margin-right: auto;
+}
+.itemRight{
+    margin-left: auto;
+
+}
+.rightcomp{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

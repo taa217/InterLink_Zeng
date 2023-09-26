@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    color: black;
+}
+.centred{
+    font-size: larger;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
