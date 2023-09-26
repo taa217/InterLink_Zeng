@@ -1,0 +1,47 @@
+.container{
+    min-width: 9rem;
+    height: 14rem;
+    border: solid rgb(185, 182, 182);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    background-color:white ;/*linear-gradient(45deg,rgb(33, 44, 51),rgb(48, 185, 248));*/
+    color: black;
+}
+.coverimg{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+}
+.profileimg{
+    margin-top: -2rem;
+    position: relative;
+    border-radius: 1rem;
+    border: solid rgb(184, 179, 179);
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+.inname{
+    padding: 0.5rem;
+}
+.name{
+    margin: 0.3rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.desc{
+    margin-bottom: 15px;
+    font-size: smaller;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.members{
+    font-size: smaller;
+    color: 12px;
+    margin-top: 10px;
+}

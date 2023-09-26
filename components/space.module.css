@@ -1,0 +1,24 @@
+.container{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+}
+.head{
+    font-size: medium;
+    font-weight: bold;
+}
+.spaces{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 0.5rem;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    /*hide scroll bar for ms edge,internet explorer*/
+    -ms-overflow-style: none;
+}
+.spaces::-webkit-scrollbar{
+    /*hide scroll bar for chrome,opera,safari*/
+    display: none;
+}

@@ -1,0 +1,23 @@
+
+
+
+.img{
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.pic{
+    border-radius: 50%;
+}
+.namenpic{
+    color: black;
+    display: flex;
+    gap: 0.7rem;
+}
+.desc{
+    font-size: small;
+}
+.name{
+    font-size: small;
+}
