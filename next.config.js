@@ -1,10 +1,11 @@
 module.exports = {
   webpack: (config) => {
-    // this will override the experiments
-    config.experiments = { ...config.experiments, topLevelAwait: true,
-                        staticPageGenerationTimeout: 120, };
-    // this will just update topLevelAwait property of config.experiments
-    // config.experiments.topLevelAwait = true 
+    // Set topLevelAwait to true
+    config.experiments = { ...config.experiments, topLevelAwait: true };
+
+    // Set timeout to 120 seconds
+    config.staticPageGenerationTimeout = 120;
+
     return config;
   },
 };
