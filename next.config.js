@@ -1,4 +1,4 @@
-ini/** @type {import('next').NextConfig} */
+//ini/** @type {import('next').NextConfig} */
 
 module.exports = {
   //webpack: (config) => {
@@ -9,6 +9,6 @@ module.exports = {
     // config.experiments.topLevelAwait = true 
 //    return config;
 //  },
-  experiments.topLevelAwait = true
+  experiments.topLevelAwait : true
 };
 
