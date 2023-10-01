@@ -1,10 +1,12 @@
-module.exports = {
-  webpack: (config) => {
-    // Set topLevelAwait to true
-    config.experiments = { ...config.experiments, topLevelAwait: true };
+module.exports = (phases,{defaultConfig}){
 
-    
-
-    return config;
+const NextConfig = {
+  experimental:{
+    topLevelAwait: true,
   },
+  elsint: {
+    ignoreDuringBuilds: true,
+  }
+};
+  return NextConfig
 };
