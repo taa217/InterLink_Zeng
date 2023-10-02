@@ -8,7 +8,8 @@ function Messages(){
         <div>
             <RoutesTopbar route_name="Messages"/>
             <Navbar/>
-            <MessageComponent/>
+            <{/*MessageComponent*/}/>
+        <h1>YOU HAVE NO MESSAGES YET...</h1>
         </div>
     )
 }
