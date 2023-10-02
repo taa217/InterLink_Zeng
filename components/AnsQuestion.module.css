@@ -4,6 +4,9 @@
     padding: 0.4rem;
     border-bottom: gray solid;
 }
+.cl {
+    color : black;
+}
 .top{
     display: flex;
     justify-content: space-between;
