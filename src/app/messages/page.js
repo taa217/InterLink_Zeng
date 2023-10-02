@@ -10,7 +10,7 @@ function Messages(){
             <RoutesTopbar route_name="Messages"/>
             <Navbar/>
             
-        <h1 className={styles.cl}>YOU HAVE NO MESSAGES YET...</h1>
+      <strong><h1 className={styles.cl}>YOU HAVE NO MESSAGES YET...</h1></strong>
         </div>
     )
 }
