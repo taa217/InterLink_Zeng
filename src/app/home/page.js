@@ -11,6 +11,7 @@ import SideBar from '../../../components/SideBar';
 import QuestionsAndAnswer from '../../../components/QuestionsAndAnswer'
 import AnsweredCard from '../../../components/AnsweredCard'
 import Loading from '../../../components/loading.client'
+import styles from '../../../components/AnsQuestion.module.css
 
 //const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc/stage'
 
@@ -94,7 +95,7 @@ being used." src="/postpics/sc.jpg" removeSidebar={removeSidebar}/>
  <PostCard ppsrc="/postpics/f.jpg" from='Science and Nature' About ="Here are some of the projects you can create with AI using the python's tensorflow." src="/postpics/d.jpg"/> 
  <AnsweredCard ppsrc="/postpics/k.jpg" answeredby="James Zhuwa" qnfrom="Emily Kupa" question="What does it take to be an AI expect?" answer="To be an AI expert, you typically need to have strong foundation in computer science, mathematics, and statistics, as well as experience in machine learning and deep learning."/>
  
- <p>Getting more posts...</p>
+ <p className={styles.cl}>Getting more posts...</p>
 
   </div>
   
