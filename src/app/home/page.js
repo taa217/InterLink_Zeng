@@ -94,7 +94,7 @@ being used." src="/postpics/sc.jpg" removeSidebar={removeSidebar}/>
  <PostCard ppsrc="/postpics/f.jpg" from='Science and Nature' About ="Here are some of the projects you can create with AI using the python's tensorflow." src="/postpics/d.jpg"/> 
  <AnsweredCard ppsrc="/postpics/k.jpg" answeredby="James Zhuwa" qnfrom="Emily Kupa" question="What does it take to be an AI expect?" answer="To be an AI expert, you typically need to have strong foundation in computer science, mathematics, and statistics, as well as experience in machine learning and deep learning."/>
  
- Getting more posts...
+ <p>Getting more posts...</p>
 
   </div>
   
