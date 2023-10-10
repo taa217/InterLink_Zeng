@@ -1,6 +1,7 @@
 'use client'
 import {useState,useEffect,Suspense} from 'react'
-import Image from 'next/image'import alanBtn from '@alan-ai/alan-sdk-web'
+import Image from 'next/image'
+import alanBtn from '@alan-ai/alan-sdk-web'
 import Navbar from '../../../components/navbar'
 import Header from '../../../components/topbar'
 import Featured from '../../../components/featured';
