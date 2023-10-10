@@ -81,7 +81,7 @@ in Zimbabwe and Europe in the coming
 years, we will not be able to contribute
 to shaping the technology and how it is
 being used." src="/postpics/sc.jpg" removeSidebar={removeSidebar}/>  
- <PostCard ppsrc="/postpics/m.jpg" from="Science and Technology" About ="It is no secret that to become an expert in Artificiall Intelligence you are going to to ave to be familiar with the python programming language.Here is the roadmap to learn python effectively and efficienly." src="/studs.jpg" removeSidebar={removeSidebar}/> 
+ <PostCard ppsrc="/postpics/m.jpg" from="Science and Technology" About ="It is no secret that to become an expert in Artificiall Intelligence you are going to to ave to be familiar with the python programming language.Here is the roadmap to learn python effectively and efficienly." src="/postspics/g.jpg" removeSidebar={removeSidebar}/> 
  <PostCard  ppsrc="/postpics/o.jpg" from="Physical Science" About ="Neural Networks are the buildings blocks of Artificial Intelligence, they boost performance of Artificial Robots." src="/postpics/df.jpg" /> 
  <AnsweredCard ppsrc="/postpics/n.jpg" answeredby="Tanaka Makato" qnfrom="Nokutenda Maponga" question="Which University is the best if i want to study Artficial Intelligence and Machine Learning?" answer="Most people would recommend the University of Zimbabwe, but based on my experince, i would recomment Harare Institutte of Technology. HIT has many supervisors who are experts in the field of Artificial Intelligence?"/>
  
