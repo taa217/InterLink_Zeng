@@ -1,7 +1,7 @@
 'use client'
 import {useState,useEffect,Suspense} from 'react'
 import Image from 'next/image'
-//import alanBtn from '@alan-ai/alan-sdk-web'
+import alanBtn from '@alan-ai/alan-sdk-web'
 import Navbar from '../../../components/navbar'
 import Header from '../../../components/topbar'
 import Featured from '../../../components/featured';
@@ -13,15 +13,15 @@ import AnsweredCard from '../../../components/AnsweredCard'
 import Loading from '../../../components/loading.client'
 import styles from '../../../components/AnsQuestion.module.css'
 
-//const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc/stage'
+const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc/stage'
 
 console.log("hey clyde");
 export default function Home() {
- //    useEffect(() =>{
-  //     alanBtn({
-    //     key:alankey
-   //     })
-   //    },[] )
+   useEffect(() =>{
+     alanBtn({
+         key:alankey
+     })
+     },[] )
   const [showSidebar,setShowSidebar] = useState(false)
   const toggleSideBar = () => 
   {
