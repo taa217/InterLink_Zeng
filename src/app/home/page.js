@@ -26,7 +26,7 @@ export default function Home() {
 }, []);
 
  //  }else {
-   //   console.log("Voice AI is not working for now")
+   //   console.log("Voice AI is not working for now, sorry")
    //}
 
   const [showSidebar,setShowSidebar] = useState(false)
