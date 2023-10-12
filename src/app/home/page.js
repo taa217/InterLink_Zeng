@@ -18,11 +18,11 @@ const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc
 console.log("hey clyde");
 export default function Home() {
    useEffect(() => {
-  if (typeof window !== "undefined") {
+//  if (typeof window !== "undefined") {
     alanBtn({
       key: alankey,
     });
-  }
+//  }
 }, []);
 
    }else {
