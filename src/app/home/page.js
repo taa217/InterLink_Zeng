@@ -18,12 +18,12 @@ const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc
 console.log("hey clyde");
 export default function Home() {
   useEffect(() =>{
-    setTimeout(() => {
+    if (typeof window !== 'undefined') {
     const alanBtn = require('@alan-ai/alan-sdk-web')
         alanBtn({
           key:'83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc/prod',
           rootEl: document.getElementById('alan-btn')
-        })  },120)
+        })  }
       },[] )
 
 
