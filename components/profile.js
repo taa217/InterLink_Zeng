@@ -4,7 +4,7 @@ import styles from './profile.module.css'
 function ProfilePic (){
   return(
     <div className={styles.container}>
-      <Image src="/postpics/pp.jpg" alt='profile' layout="fill" objectFit="cover"/>
+      <Image src="/group.png" alt='profile' layout="fill" objectFit="cover"/>
     </div>
   )
 }
