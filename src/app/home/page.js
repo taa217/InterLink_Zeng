@@ -17,16 +17,14 @@ const alankey ='83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc
 
 console.log("hey clyde");
 export default function Home() {
-   useEffect(() => {
- //if (typeof window !== "undefined") {
-    alanBtn({
-      key: alankey,
-    });
-//  }
-        //     }else {
-     // console.log("Voice AI is not working for now, sorry")
-  // }
-}, []);
+  useEffect(() =>{
+    
+    const alanBtn = require('@alan-ai/alan-sdk-web')
+        alanBtn({
+          key:'83bfeacf9e8a39662089a6d17904572d2e956eca572e1d8b807a3e2338fdd0dc/prod',
+          rootEl: document.getElementById('alan-btn')
+        })  
+      },[] )
 
 
   const [showSidebar,setShowSidebar] = useState(false)
@@ -42,6 +40,7 @@ export default function Home() {
   return (
 <Suspense fallback={<p>Loading</p>}>
 <div>  
+     <div id='alan-btn'></div>
     {showSidebar && <SideBar/>}
  <Header showSidebar={showSidebar} toggleSideBar={toggleSideBar}/>
  <hr></hr>
