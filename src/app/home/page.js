@@ -51,7 +51,7 @@ export default function Home() {
 
 <Featured  removeSidebar={removeSidebar}/>
 
-
+ <PostCard ppsrc="/netr.jpg" from='Advertisements' About ="Neutrimo Drink. One drink that can change your day" src="/postpics/pok.jpg"/> 
  <PostCard ppsrc="/postpics/d.jpg" from='Science and Nature' About ="Here are some of the projects you can create with AI using the python's tensorflow." src="/postpics/pok.jpg"/> 
  <PostCard ppsrc="/postpics/m.jpg" from="Boosting Science and Technology in Zimbabwe" About ="Voicification, personalised education or
 the optimisation of production lines and
